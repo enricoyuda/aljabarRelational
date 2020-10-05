@@ -1,0 +1,114 @@
+group: PrivateSchool
+
+dataGuru = {
+kodeGuru, namaGuru, mataPelajaran
+'B001', 'Pranata', 'Biologi'
+'B002', 'Tanoto', 'Biologi'
+'F001', 'Sapardi', 'Fisika'
+'F002', 'Eka', 'Fisika'
+'K001', 'Anni', 'Kimia'
+'K002', 'Christina', 'Kimia'
+'S001', 'Zora', 'Seni Budaya'
+'S002', 'Tyane', 'Seni Budaya'
+'G001', 'Donny', 'Olahraga'
+'G002', 'Renardi', 'Olahraga'
+}
+
+gajiGuru = {
+kodeGuru, namaGuru, statusGuru, masaAbdi, Gaji
+'B001', 'Pranata', 'Senior', 7, 10000000
+'B002', 'Tanoto', 'Senior', 6, 9000000
+'F001', 'Sapardi', 'Senior', 7, 10000000
+'F002', 'Eka', 'Junior', 2, 5000000
+'K001', 'Anni', 'Junior', 3, 6000000
+'K002', 'Kristina', 'Senior', 6, 9000000
+'S001', 'Zora', 'Senior', 7, 10000000
+'S002', 'Tyane', 'Junior', 3, 6000000
+'G001', 'Donny', 'Senior', 6, 9000000
+'G002', 'Reynardi', 'Junior', 2, 5000000
+}
+
+dataSiswa = {
+namaSiswa, Asal, JKelamin, Absen
+'Adam', 'Bekasi', 'L', 01
+'Budi', 'Bogor', 'L', 02
+'Cecep', 'Jakarta', 'L', 03
+'Doni', 'Sukabumi', 'L', 04
+'Erwin', 'Ciamis', 'P', 05
+'Fia', 'Bandung', 'P', 06
+'Gandhi', 'Jakarta', 'L', 07
+'Hani', 'Bandung', 'P', 08
+'Indah', 'Bekasi', 'P', 09
+'Jerry', 'Bogor', 'L', 10
+'Kania', 'Purwakarta', 'P', 11
+'Leni', 'Cirebon', 'P', 12
+'Maria', 'Jakarta', 'P', 13
+'Nino', 'Bogor', 'L', 14
+'Oscar', 'Jakarta', 'L', 15
+'Putri', 'Sumedang', 'P', 16
+'Queen', 'Ciamis', 'P', 17
+'Radit', 'Tasikmalaya', 'L', 18
+'Safa', 'Pangandaran', 'P', 19
+'Thariq', 'Banten', 'L', 20
+'Umam', 'Bandung', 'L', 21
+'Vega', 'Jakarta', 'L', 22
+'Wayan', 'Bali', 'L', 23
+'Yura', 'Bekasi', 'P', 24
+'Zahra', 'Bogor', 'P', 25
+}
+
+pembagianAsrama= {
+namaSiswa, JKelamin, Gedung
+'Adam', 'L', 'Blok A'
+'Budi', 'L', 'Blok D'
+'Cecep', 'L', 'Blok E'
+'Doni', 'L', 'Blok A'
+'Erwin', 'P', 'Blok C'
+'Fia', 'P', 'Blok B'
+'Gandhi', 'L', 'Blok A'
+'Hani', 'P', 'Blok C'
+'Indah', 'P', 'Blok B'
+'Jerry', 'L', 'Blok D'
+'Kania', 'P', 'Blok C'
+'Leni', 'P', 'Blok B'
+'Maria', 'P', 'Blok C'
+'Nino', 'L', 'Blok E'
+'Oscar', 'L', 'Blok A'
+'Putri', 'P', 'Blok C'
+'Queen', 'P', 'Blok B'
+'Radit', 'L', 'Blok D'
+'Safa', 'P', 'Blok C'
+'Thariq', 'L', 'Blok E'
+'Umam', 'L', 'Blok A'
+'Vega', 'L', 'Blok D'
+'Wayan', 'L', 'Blok E'
+'Yura', 'P', 'Blok B'
+'Zahra', 'P', 'Blok C'
+}
+
+biayaAsrama = {
+Gedung, biayaTahunan
+'Blok A', 4000000
+'Blok B', 4500000
+'Blok C', 5000000
+'Blok D', 5500000
+'Blok E', 6000000
+}
+
+KpAsrama = {
+namaKp, KpAsrama
+'Sapardi', 'Blok A'
+'Zora', 'Blok B'
+'Kristina', 'Blok C'
+'Donny', 'Blok D'
+'Reynardi', 'Blok E'
+}
+
+Satpam = {
+namaSatpam, Blok
+'Septian', 'Blok A'
+'Rahman', 'Blok B'
+'Agus', 'Blok C'
+'Hendrawan', 'Blok D'
+'Zainal', 'Blok E'
+}
